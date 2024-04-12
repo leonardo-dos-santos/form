@@ -45,3 +45,25 @@ main {
 .logo-and-name img {
   height: 9rem;
 }
+
+/* Conteúdo do lado direito*/
+
+#right-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(240, 240, 240);
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  padding: 1.2rem 2vw 3rem 2vw;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.123);
+}
+
+.text, .submit-section {
+  padding: 0px 2vw;
+}
