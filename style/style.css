@@ -152,11 +152,11 @@ input:invalid:focus {
 }
 
 input:focus:valid {
-  border: rgb(0, 183, 255) 2px solid;
+  border: 2px solid rgb(0, 183, 255);
 }
 
 .error {
-  font-size: .7rem;
+  font-size: .75rem;
   color: rgb(255, 69, 100);
   position: absolute;
 }
